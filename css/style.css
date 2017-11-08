@@ -1,0 +1,22 @@
+
+/* Assets */
+@import url('reset.css');
+@import url('grid.css');
+
+/* Project files */
+@import url('header.css');
+@import url('meniu.css');
+@import url('sidebar.css');
+@import url('produse.css');
+
+/* Main CSS Properties */
+
+body {
+	background-color: #fafafa;
+	font-family: "PT Sans Narrow";
+}
+
+.wrapper {
+	width:1140px;
+	margin:0 auto;
+}
