@@ -1,8 +1,20 @@
+.homepage_main_products {
+	min-height: 900px;
+
+}
+
+.homepage_main_products .featured_products {
+
+		margin-top: 30px;
+
+}
+
 .homepage_main_products .row_title {
 
 		background-color: #f1f1f1;
 		border: 1px solid #bdbdbd;
 		margin-bottom: 0px;
+		margin-top: 10px;
 }
 
 .homepage_main_products .row_title h4 {
@@ -24,32 +36,74 @@
 
 
 
-
 .homepage_main_products .row_2 .product {
 
 		border-right: 1px solid #bdbdbd;
+		margin-top: 0px;
+		margin-bottom: 0px;
 		margin-right: -1px;
 }
 
-.homepage_main_products .product h5 {
-		text-transform: uppercase;
-		font-size: 13px;
-		font-weight: 700;
+.product .box {
 
-		color: #910025;
-		padding: 5px;
+		display:flex;
+		flex-direction: column;
+		align-items: left;
+		padding: 10px 20px;
+
 }
 
-.product .price {
-	font-size: 13px;
+.product img {
+		display: inline-block;
+		align-self: center;
+}
+
+
+.homepage_main_products .row_2 .product:last-child {
+
+		margin-top: 0px;
+		margin-bottom: 0px
+}
+
+.homepage_main_products .product h5 {
+
+		display: block;
+		width: 100%;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 25px;
+		padding-bottom: 10px;
+		color: #910025;
+
+		text-align: justify;
+		align-self: center;
+}
+.homepage_main_products p {
+
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 25px;
+		color: #616161;
+		padding-bottom: 5px;
+		text-align: justify;
+		align-self: center;
+}
+
+.product .box .price {
+	font-size: 14px;
 	font-weight: 700;
 	color: #505050;
+	align-self:  flex-start;
+	padding-top: 20px;
+	padding-bottom: 15px;
 }
 
 .product .shop_links .shop{
 		display: inline-block;
-		margin: 10px	0px 10px 1px;
-		padding: 5px 15px;
+		margin: 15px	0px;
+		padding: 10px 20px;
 		border: 1px solid #910025;
 		background-color: #910025;
 
@@ -58,16 +112,29 @@
 		font-size: 14px;
 		font-weight: 700;
 		text-transform: uppercase;
-
 }
+
+.product .shop_links .shop:hover {
+
+		background-color: #2e2e2e;
+		border-color: #2e2e2e;
+}
+
 .product .shop_links .info{
 		display: inline-block;
-		margin: 10px	0px 10px 5px;
-		padding: 5px 10px;
+		margin: 10px	0px 10px 1px;
+		padding: 10px 15px;
 		border: 1px solid #bdbdbd;
 		background-color: #f1f1f1;
 		text-decoration: none;
 		color: #9a9a9a;
 		font-size: 14px;
+}
 
+
+.product .shop_links .info:hover {
+
+		background-color: #383838;
+		border-color: #383838;
+		color: #fff;
 }
